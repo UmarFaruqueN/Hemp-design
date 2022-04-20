@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* header starts here */
+.header{
+    width: 100%;
+    height: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:600px
+}
+
+
+.left img{
+    height: 30px;
+    width: 109px;
+}
+.left_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 450px;
+    height: 20px;
+
+}
+
+
+.right_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 20px;
+}
+
+.right_menu img{
+    height: 22px;
+}
+
+/* header ends here */
+
+/* main starts here */
+.banner{
+    background-image: linear-gradient(#DEFFDE,#DEFFDE,white);
+    width: 100%;
+    height: 849px;
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-around;   
+}
+
+
+.banner_top{
+    display:flex ;
+    width: 100%;
+   
+}
+
+.left_banner{
+    width:50%;
+    height:100%;
+    margin-left: 155px;
+}
+.title{
+    height: 50%;
+    width: 100%;
+}
+.title h3{
+    font-size: 21px;
+    font-weight: bold;
+    color: #51C451;
+}
+.title h1{
+    font-size: 78px;
+    font-weight: bold;
+    color:#57190C;
+}
+.title h2{
+    font-size: 27px;
+    font-weight: bold;
+    color:#83807A;
+    padding-top: 20px;
+}
+
+
+.price{
+    height: 50%;
+    width: 100%;
+    margin-top: 20px;
+   
+}
+
+.prices{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.prices h3{
+    margin-right: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #51C451;
+}
+.prices h4{
+    font-size: 30px;
+    font-weight: bold;
+    color: #83807A;  
+   
+}
+.price h5{
+    font-size: 19px;
+    font-weight: bold;
+    color: #B4B4B4;
+    padding-bottom: 10px;
+}
+ .price button{
+     width: 259px;
+     height: 82px;
+     border-color: #51C451;
+     border-radius: 50px;
+     font-size: 26px;
+     font-weight: bold;
+     background-color:white;
+ }
+
+
+.right_banner{
+    width:50%;
+    height:100%;
+   
+}
+.right_banner img{
+    width:90%;
+}
+
+
+/* bottom bar */
+.banner_bottom{
+    display: flex;
+    justify-content: space-around;
+}
+.bottom_bar{
+    display: flex;
+
+}
+.banner_navigation{
+    background-color: #D4D4D4;
+    width:30px;
+    height: 5px;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+.banner_navigation_selected{
+    background-color:#57190C;
+}
+
+/* bottom bar ends here */
+
+/* products starts here */
+
+.products{
+    margin-top: 80px;
+    height: 100%;
+    width: 100%;
+    margin-left: 150;
+}
+
+.products_top{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.products_bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.product_card{
+    width: 439px;
+    height: 624px;
+
+}
+
+.pic{
+    width: 439px;
+    height: 486px;
+}
+
+.pic img{
+    width: 100%;
+    height: 100%;
+}
+
+.details{
+    padding: 5px;
+    width: 439px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.details_title h3{
+    font-size: 15px;
+    font-weight: normal;
+    color: #888888;
+
+}
+.details_title h2{
+    font-size: 25px;
+    font-weight:medium;
+}
+
+
+.details_center{
+    display: flex;
+    align-items: center;
+}
+
+.details_center h2{
+    font-size: 15px;
+    font-weight: medium;
+    color: #888888;
+}
+
+.details_center h3{
+    font-size: 9px;
+    font-weight: bold;
+    color: #888888;
+}
+
+.details_center h4{
+    font-size:9px;
+    font-weight:normal;
+    color: #888888;
+}
+
+.details_center h5{
+     font-size: 9px;
+    font-weight: bold;
+    color: #888888;
+}
+
+.btn1{
+    height: 28px;
+    width: 95px;
+    background-color: #51C451;
+    border: none;
+    color: white;
+}
+.btn2{
+    height: 28px;
+    width: 95px;
+    background-color: #3A4443;
+    border: none;
+    color: white;
+}
+
+
+.details_price h2{
+    font-size: 45px;
+    color:  #51C451;
+}
